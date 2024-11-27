@@ -166,3 +166,27 @@ footer {
     background-color: #f67280;
     transform: translateY(-3px);
 }
+
+.view-certificates-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.view-certificates-btn:hover {
+    background-color: #0056b3;
+}
+
+.certificate-item img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain; /* Ensures the whole image is shown without cropping */
+    border-radius: 5px;
+    max-height: 300px; /* Limit the height to ensure images don't appear too large */
+}
